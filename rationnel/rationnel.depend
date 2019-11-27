@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1574839335 source:c:\users\bryan\onedrive\documents\github\calculator\rationnel\rationnel\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
