@@ -74,12 +74,17 @@ bool comparaison (float a,float b,float c, float d)
     if (r1==r2)
     {
         printf("EGALITE\n");
-        return true;
+        return 0;
     }
-    else
+    else if(r1<r2)
         {
-            printf("NON EGALITE");
-            return false;
+            printf("%f/%f<%f/%f",a,b,c,d);
+            return 0;
+        }
+    else if(r1>r2)
+        {
+             printf("%f/%f<%f/%f",a,b,c,d);
+            return 0;
         }
 }
 int main()
